@@ -1,16 +1,53 @@
-# React + Vite
+# 🌐 Poly.vo – AI Language Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:** [https://poly-vo.vercel.app](https://poly-vo.vercel.app)
 
-Currently, two official plugins are available:
+Poly.vo is a full-stack web application featuring an AI-powered chatbot and user authentication, designed to provide an interactive language learning experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- AI Chatbot for language guidance  
+- User authentication (Login & Signup)  
+- Multi-language support  
+- Responsive, modern UI  
+- Fully deployed (Frontend + Backend)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, Framer Motion, Vercel  
+- **Backend:** Node.js, Express.js, Render  
+
+---
+
+## 📸 Screenshots
+
+### 1 Home Page
+<img width="1920" height="1011" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/ce86cf39-7d10-4de8-a5d1-5f8684b31626" />
+
+### 2 Dark Mode
+<img width="1920" height="1013" alt="Screenshot (87)" src="https://github.com/user-attachments/assets/cc13cd0b-72e1-41c8-8246-66540c81f225" />
+
+### Signup/Login & Chat Bot 
+<img width="1920" height="1011" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/52e226ff-d4da-4b3c-b818-6e3064c7d730" />
+<img width="1920" height="1011" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/9483b173-3139-451f-a1e9-45407cd47a81" />
+
+
+---
+
+## 🔗 API Endpoints
+
+| Method | Endpoint         | Description        |
+|--------|----------------|------------------|
+| POST   | /api/register   | Register user     |
+| POST   | /api/login      | Login user        |
+| POST   | /api/chat       | Chatbot response  |
+
+---
+
+## 📬 Contact
+
+- GitHub: https://github.com/SUHANI-GARG-05
