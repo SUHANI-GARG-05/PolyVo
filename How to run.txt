@@ -1,0 +1,6 @@
+cmd 
+cd Desktop
+cd Hackathon
+npm run dev 
+
+(to run the hackathon project)
