@@ -28,7 +28,7 @@ export const ChatBot = () => {
         setIsTyping(true);
 
         try {
-            const response = await fetch('http://localhost:5000/api/chat', {
+            const response = await fetch('http://polyvo.onrender.com/api/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ message: userMsg.text })
@@ -100,8 +100,8 @@ export const ChatBot = () => {
                                 >
                                     <div
                                         className={`max-w-[80%] p-3 rounded-2xl text-sm ${msg.sender === 'user'
-                                                ? 'bg-brand-orange text-white rounded-br-none'
-                                                : 'bg-white dark:bg-slate-700 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-600 rounded-bl-none shadow-sm'
+                                            ? 'bg-brand-orange text-white rounded-br-none'
+                                            : 'bg-white dark:bg-slate-700 text-slate-800 dark:text-slate-200 border border-slate-200 dark:border-slate-600 rounded-bl-none shadow-sm'
                                             }`}
                                     >
                                         {msg.text}
